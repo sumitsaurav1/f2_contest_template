@@ -29,7 +29,9 @@ function PrintDeveloperbyForEach() {
 function addData() {
   //Write your code here, just console.log
     let obj= {id:4,name:"susan",age:"20",profession:"intern"};
-    arr.push(obj);
+    if(arr.length<4){
+      arr.push(obj);
+    }
     console.log(arr);
 }
 
