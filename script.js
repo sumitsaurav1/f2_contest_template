@@ -9,11 +9,11 @@ let arr = [
 function PrintDeveloperbyMap() {
   //Write your code here , just console.log
   function callBack(e){
-    if(e.profession=="developer")
-    {
-      console.log(e)
+      if(e.profession=="developer"){
+        console.log(e)
+      }
     }
-  }
+    arr.map(callBack);
 }
 
 function PrintDeveloperbyForEach() {
